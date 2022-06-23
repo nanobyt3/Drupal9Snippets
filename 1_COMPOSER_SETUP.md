@@ -6,6 +6,13 @@
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
+```
+#### Composer local/project usage
+```
+php composer.phar
+```
+#### Access composer globally via command-line
+```
 sudo mv composer.phar /usr/local/bin/composer
 ```
 
