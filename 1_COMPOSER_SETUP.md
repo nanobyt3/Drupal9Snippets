@@ -8,3 +8,8 @@ php composer-setup.php
 php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/local/bin/composer
 ```
+
+## Useful Links
+- Documentation: https://getcomposer.org/doc/
+- The composer.json schema: https://getcomposer.org/doc/04-schema.md
+- Packages: https://packagist.org/
