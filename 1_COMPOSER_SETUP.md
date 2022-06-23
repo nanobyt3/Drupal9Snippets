@@ -1,5 +1,6 @@
 # Install COMPOSER
 #### SOURCE: https://getcomposer.org/download/
+#### REQUIREMENTS: PHP 7.2.5 or later
 
 ## Command-line installation via PHP (UBUNTU)
 ```
