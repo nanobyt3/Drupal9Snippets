@@ -30,6 +30,7 @@ drush --version
 
 ## Comman usage
 ### *v9.2.1*
+### Additional reading: https://drushcommands.com/drush-9x/
 
 Run `drush help [command]` to view command-specific help.
 
