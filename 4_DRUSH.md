@@ -49,7 +49,7 @@ Run `drush topic` to read even more documentation.
 |updatedb:status (updbst) | List any pending database updates.|
 |drupal:directory (dd) | Return the filesystem path for modules/themes and other key folders.|
 |twig:compile (twigc) | Compile all Twig template(s).|
-|||
+
 
 | cache:        |               |
 | ------------- | ------------- |
@@ -57,7 +57,7 @@ Run `drush topic` to read even more documentation.
 |cache:clear (cc) | Clear a specific cache, or all Drupal caches.|
 |cache:set (cs) | Cache an object expressed in JSON or var_export() format.|
 |cache:rebuild (cr, rebuild) | Rebuild a Drupal 8 site.|
-|||
+
 
 | config:       |               |
 | ------------- | ------------- |
@@ -69,7 +69,7 @@ Run `drush topic` to read even more documentation.
 | config:status (cst) | Display status of configuration (differences between the filesystem configuration and database configuration). |
 | config:export (cex) | Export Drupal configuration to a directory.|
 | config:import (cim) | Import config from a config directory.|
-|||
+
 
 |core:          |               |
 | ------------- | ------------- |                                            
@@ -81,32 +81,32 @@ Run `drush topic` to read even more documentation.
 | core:init (init) | Enrich the bash startup file with bash aliases and a smart command prompt.|
 | core:cron (cron) | Run all cron hooks in all active modules for specified site.|
 | core:requirements (status-report, rq) | Information about things that may be wrong in your Drupal installation.|
-|||
+
 
 | entity:       |               |
 | ------------- | ------------- |            
 | entity:updates (entup) | Apply pending entity schema updates.|
 | entity:delete (edel) | Delete content entities.|
-|||
+
 
 | image:        |               |
 | ------------- | ------------- |
 | image:flush (if) | Flush all derived images for a given style. |
 | image:derive (id) | Create an image derivative. |
-|||
+
 
 | locale:       |               |
 | ------------- | ------------- |                                                        
 | locale:check | Checks for available translation updates. |
 | locale:update | Imports the available translation updates. |
-|||
+
 
 | php:          |               |
 | ------------- | ------------- |
 | php:eval (eval, ev) | Evaluate arbitrary php code after bootstrapping Drupal (if available). |
 | php:script (scr) | Run php a script after a full Drupal bootstrap. |
 | php:cli (php, core:cli, core-cli) | Open an interactive shell on a Drupal site. |
-|||
+
 
 | pm:           |               |
 | ------------- | ------------- |
@@ -114,14 +114,14 @@ Run `drush topic` to read even more documentation.
 | pm:enable (en) | Enable one or more modules.|
 | pm:uninstall (pmu) | Uninstall one or more modules and their dependent modules.|
 | pm:list (pml) | Show a list of available extensions (modules and themes).|
-|||
+
 
 | queue:        |               |
 | ------------- | ------------- |
 | queue:run | Run a specific queue by name. |
 | queue:list | Returns a list of all defined queues. |
 | queue:delete | Delete all items in a specific queue. |
-|||
+
 
 | role:         |               |
 | ------------- | ------------- |
@@ -130,7 +130,7 @@ Run `drush topic` to read even more documentation.
 | role:perm:add (rap, role-add-perm) | Grant specified permission(s) to a role. |
 | role:perm:remove (rmp, role-remove-perm) | Remove specified permission(s) from a role. |
 | role:list (rls) | Display a list of all roles defined on the system. |
-|||
+
 
 | site:         |               |
 | ------------- | ------------- |
@@ -139,7 +139,7 @@ Run `drush topic` to read even more documentation.
 | site:alias-convert (sa-convert, sac) | Convert legacy site alias files to the new yml format. |
 | site:ssh (ssh) | Connect to a Drupal site's server via SSH. |
 | site:install (si, sin) | Install Drupal along with modules/themes/configuration/profile. |
-|||
+
 
 | sql:          |               |
 | ------------- | ------------- |
@@ -151,20 +151,20 @@ Run `drush topic` to read even more documentation.
 | sql:dump | Exports the Drupal DB as SQL using mysqldump or equivalent.|
 | sql:sync | Copy DB data from a source site to a target site. Transfers data via rsync.|
 | sql:sanitize (sqlsan)| Sanitize the database by removing or obfuscating user data.|
-|||
+
 
 | state:        |               |
 | ------------- | ------------- |
 | state:get (sget) | Display a state value. |
 | state:set (sset) | Set a state value. |
 | state:delete (sdel) | Delete a state entry. |
-|||
+
 
 | theme:        |               |
 | ------------- | ------------- |
 | theme:enable (then) | Enable one or more themes. |
 | theme:uninstall (thun) | Uninstall theme. |
-|||
+
 
 | user:         |               |
 | ------------- | ------------- |
@@ -177,7 +177,7 @@ Run `drush topic` to read even more documentation.
 | user:create (ucrt) | Create a user account. |
 | user:cancel (ucan) | Cancel user account(s) with the specified name(s). |
 | user:password (upwd) |   Set the password for the user account with the specified name. |
-|||
+
 
 | views:        |               |
 | ------------- | ------------- |
@@ -187,7 +187,7 @@ Run `drush topic` to read even more documentation.
 | views:analyze (va) | Get a list of all Views and analyze warnings. |
 | views:enable (ven) | Enable the specified views. |
 | views:disable (vdis) | Disable the specified views. |
-|||
+
 
 | watchdog:     |               |
 | ------------- | ------------- |
@@ -195,4 +195,3 @@ Run `drush topic` to read even more documentation.
 | watchdog:list (wd-list) | Interactively filter the watchdog message listing. |
 | watchdog:delete (wd-del, wd-delete, wd) | Delete watchdog log records. |
 | watchdog:show-one (wd-one) | Show one log record by ID. |
-|||
