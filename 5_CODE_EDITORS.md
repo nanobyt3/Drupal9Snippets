@@ -1,4 +1,4 @@
-# 1. VS CODE
+# 1. VS Code
 #### Reference: https://www.drupal.org/docs/develop/development-tools/configuring-visual-studio-code
 
 # 2. SublimeText
