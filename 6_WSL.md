@@ -1,4 +1,5 @@
 # WSL setup
+*Ubuntu 20.04*
 
 ## Using a standard LAMP setup via *Sprintcube*
 **GIT Repo:** https://github.com/sprintcube/docker-compose-lamp
