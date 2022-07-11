@@ -4,3 +4,11 @@ description: 'Drupal 9 Module.'
 package: Custom
 version: 1.0
 core_version_requirement: ^8 || ^9
+#lifecycle: stable
+## Configure link is a route specified in module's routing.yml file
+#configure: block.admin_display
+
+dependencies:
+  - drupal:node
+#  - webform:webform (>=8.x-5.x)
+#  - devel:devel_generate
