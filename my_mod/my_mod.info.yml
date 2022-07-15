@@ -1,13 +1,20 @@
+# Human readable name of the module
 name: My Module
+# Type of component/plugin
 type: module
+# Textual description of functionality implemented by module
 description: 'Drupal 9 Module.'
+# Package/category to which the module belongs
 package: Custom
+# Versioning info
 version: 1.0
+# Drupal core versioning requirements of the module
 core_version_requirement: ^8 || ^9
 #lifecycle: stable
 ## Configure link is a route specified in module's routing.yml file
 #configure: block.admin_display
 
+# Sepcify dependencies of this module, on other modules
 dependencies:
   - drupal:node
 #  - webform:webform (>=8.x-5.x)
