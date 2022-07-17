@@ -1,0 +1,7 @@
+welcome_module.welcome: # path machine name
+  path: '/path1' # actual URL / path
+  defaults:
+    _controller: '\Drupal\my_mod\myController::path1' # controller that will be called for this path
+    _title: 'Welcome to My Module in Drupal 9' # page title <h1> and <title> tag
+  requirements: 
+    _permission: 'access content' # premissions to access the URL
