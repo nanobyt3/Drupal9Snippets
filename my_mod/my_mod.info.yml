@@ -19,3 +19,23 @@ dependencies:
   - drupal:node
 #  - webform:webform (>=8.x-5.x)
 #  - devel:devel_generate
+
+# A list of other modules that are needed to run certain automated tests for your module on Drupal's automated test runner ("DrupalCI")
+test_dependencies:
+ - drupal:image
+
+# minimum PHP version that is required for your module
+# php: 5.6
+
+# Hide your module from the module list
+# hidden: true
+
+# Module must be enabled and cannot be uninstalled
+# required: true
+
+# Note: do not add the 'version' or 'project' properties yourself.
+# They will be added automatically by the packager on drupal.org.
+# version: 1.0
+# project: 'my_mod'
+
+# Ref: https://www.drupal.org/docs/creating-modules/let-drupal-know-about-your-module-with-an-infoyml-file
