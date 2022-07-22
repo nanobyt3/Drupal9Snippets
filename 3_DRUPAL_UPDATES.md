@@ -22,6 +22,16 @@ composer update "drupal/core-*" --with-all-dependencies --with=drupal/core-recom
 ```
 composer require drupal/core-recommended:9.3.6 drupal/core-composer-scaffold:9.3.6 drupal/core-project-message:9.3.6 --update-with-all-dependencies
 ```
+This is called version pinning and it makes future updated a bit difficult. 
+To understand, look at composer.json. This file will now containt the specific version on Drupal (9.3.6) instead of ^9.
+So for next update, you will have to update by pinning the version again.
+
+Unpinning can be done via below command. 
+```
+composer require drupal/core-recommended drupal/core-composer-scaffold drupal/core-project-message --update-with-all-dependencies
+```
+For in-detail look at managing pinned Drupal version, ref. https://www.drupal.org/docs/updating-drupal/updating-drupal-core-via-composer#s-unpinning-from-a-specific-version-of-core
+
 
 ## Check for security updates
 ```
