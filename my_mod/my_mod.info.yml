@@ -3,7 +3,7 @@ name: My Module
 # Type of component/plugin
 type: module
 # Textual description of functionality implemented by module
-description: 'Drupal 9 Module.'
+description: 'Drupal 8/9 Module.'
 # Package/category to which the module belongs
 package: Custom
 # Versioning info
