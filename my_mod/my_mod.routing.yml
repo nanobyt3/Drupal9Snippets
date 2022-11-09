@@ -1,3 +1,4 @@
+# For complete list of available options, ref. https://www.drupal.org/docs/drupal-apis/routing-system/structure-of-routes
 my_mod.welcome: # path machine name
   path: '/path1' # actual URL / path
   defaults:
